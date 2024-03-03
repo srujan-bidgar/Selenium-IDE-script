@@ -23,12 +23,16 @@ Using Selenium IDE to record automation to download the latest pdfs of judgments
        > npm install -g geckodriver
 4. Run the tests by calling the following command in your terminal
      > selenium-side-runner /path/to/your-project.side
+     
+## How I learned about Selenium IDE ##
+
+Majorly from the official documentation on the website [https://www.selenium.dev/documentation/](https://www.selenium.dev/documentation/)
 
 
 ## Challenges ##
 
 
-## Learnings ##
+## What I would improve ##
 
 
 
