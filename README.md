@@ -25,8 +25,7 @@ Using Selenium IDE to record automation to download the latest pdfs of judgments
      > selenium-side-runner /path/to/your-project.side
 
 ## Snapshots of UI and working ##
-
-![picture alt](https://imgur.com/Df7J6bw/200x150 "Title is optional")
+![alt text](https://imgur.com/Df7J6bw)
      
 ## How I learned about Selenium IDE ##
 
