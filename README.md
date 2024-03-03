@@ -25,7 +25,7 @@ Using Selenium IDE to record automation to download the latest pdfs of judgments
      > selenium-side-runner /path/to/your-project.side
 
 ## Snapshots of UI and working ##
-<img src="https://github.com/srujan-bidgar/Selenium-IDE-script/blob/main/Screenshot%202024-03-04%20015323.png" width="400" height="400" />
+<img src="https://github.com/srujan-bidgar/Selenium-IDE-script/blob/main/Screenshot%202024-03-04%20015323.png" width="600" height="300" />
      
 ## How I learned about Selenium IDE ##
 
