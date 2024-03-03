@@ -35,15 +35,11 @@ Using Selenium IDE to record automation to download the latest pdfs of judgments
 
  - - - -
 
- ## Process video to demonstrate the working##
+ ## Process video to demonstrate the working ##
 <img src="https://github.com/srujan-bidgar/Selenium-IDE-script/blob/main/process-video.gif" width="1256" height="600" />
 
 
-## Process of accessing the pdfs ##
 
-
-
-     
 ## How I learned about Selenium IDE ##
 
 Majorly from the official documentation on the website [https://www.selenium.dev/documentation/](https://www.selenium.dev/documentation/) and some freely available tutorials on youtube
