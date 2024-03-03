@@ -26,13 +26,19 @@ Using Selenium IDE to record automation to download the latest pdfs of judgments
      
 ## How I learned about Selenium IDE ##
 
-Majorly from the official documentation on the website [https://www.selenium.dev/documentation/](https://www.selenium.dev/documentation/)
+Majorly from the official documentation on the website [https://www.selenium.dev/documentation/](https://www.selenium.dev/documentation/) and some freely available tutorials on youtube
 
 
 ## Challenges ##
+- [x] Figuring out how to input the right captcha every time - sending a text with ID of "cap"(captcha) and using the _storetext_ command to store it
+- [x] Setting the date periods so that the latest pdfs can be accessed - by using a JS code to get the "to-date" as the latest date and "from-date" as 2 days prior to that date - code implemented using the    _executescript_ command
+- [x] PDF opening in a new window/tab and hampering the recording for the script - writing JS code to access that element (of pdf to be downloaded) and setting its attribute to "download" - code implemented using the    _executescript_ command
+- [x] Script failing to run because of slow website response or unavailibility of next response - by intorduicing a time delay using _wait for element visible_ command
 
 
 ## What I would improve ##
+
+-[] Integration with more web browsers like Internet explorer, Brave,etc
 
 
 
