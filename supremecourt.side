@@ -1,0 +1,188 @@
+{
+  "id": "11fd5abd-4beb-450f-a096-e58e913d848a",
+  "version": "2.0",
+  "name": "msft_selenium4",
+  "url": "https://main.sci.gov.in",
+  "tests": [{
+    "id": "1890a203-bf75-4242-acc6-efe77b1e3ed1",
+    "name": "msftfinal",
+    "commands": [{
+      "id": "bbf6e296-2162-4c11-9bb7-6ea13f7e7ed7",
+      "comment": "",
+      "command": "open",
+      "target": "/judgments",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51ad9f4b-4dd0-486a-a195-7c01acfa37ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5de27015-b748-46cd-823e-d8c6a9e920db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Judgment Date",
+      "targets": [
+        ["linkText=Judgment Date", "linkText"],
+        ["css=.z-tab:nth-child(3) > .z-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Judgment Date')]", "xpath:link"],
+        ["xpath=//div[@id='tabbed-nav']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Judgment Date')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36125772-c52e-43e1-9d3e-d69e5bb95e04",
+      "comment": "",
+      "command": "click",
+      "target": "id=ansCaptcha",
+      "targets": [
+        ["id=ansCaptcha", "id"],
+        ["name=ansCaptcha", "name"],
+        ["css=#ansCaptcha", "css:finder"],
+        ["xpath=//input[@id='ansCaptcha']", "xpath:attributes"],
+        ["xpath=//div[@id='tabbed-nav']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9303e6d-273d-4070-ad7d-8add55beafd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cap > font",
+      "targets": [
+        ["css=#cap > font", "css:finder"],
+        ["xpath=//p[@id='cap']/font", "xpath:idRelative"],
+        ["xpath=//p/font", "xpath:position"],
+        ["xpath=//font[contains(.,'7533')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33df76d4-8870-4522-9d30-e1eb29ba1d93",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cap > font",
+      "targets": [
+        ["css=#cap > font", "css:finder"],
+        ["xpath=//p[@id='cap']/font", "xpath:idRelative"],
+        ["xpath=//p/font", "xpath:position"],
+        ["xpath=//font[contains(.,'7533')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9b4ca18-8a55-47d2-859e-0078c2e5b815",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#cap > font",
+      "targets": [
+        ["css=#cap > font", "css:finder"],
+        ["xpath=//p[@id='cap']/font", "xpath:idRelative"],
+        ["xpath=//p/font", "xpath:position"],
+        ["xpath=//font[contains(.,'7533')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4224980-b2ea-42cd-925e-da6126cee681",
+      "comment": "",
+      "command": "storeText",
+      "target": "//*[@id=\"cap\"]/font",
+      "targets": [],
+      "value": "captcha"
+    }, {
+      "id": "6dc8682b-6e08-479a-8597-edf0487aa7a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ansCaptcha",
+      "targets": [
+        ["id=ansCaptcha", "id"],
+        ["name=ansCaptcha", "name"],
+        ["css=#ansCaptcha", "css:finder"],
+        ["xpath=//input[@id='ansCaptcha']", "xpath:attributes"],
+        ["xpath=//div[@id='tabbed-nav']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad77b8b9-7173-4cab-8936-10b054ea7a5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ansCaptcha",
+      "targets": [
+        ["id=ansCaptcha", "id"],
+        ["name=ansCaptcha", "name"],
+        ["css=#ansCaptcha", "css:finder"],
+        ["xpath=//input[@id='ansCaptcha']", "xpath:attributes"],
+        ["xpath=//div[@id='tabbed-nav']/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${captcha}"
+    }, {
+      "id": "215dddc7-1511-4293-b415-d20d8ed3f098",
+      "comment": "",
+      "command": "click",
+      "target": "id=JBJfrom_date",
+      "targets": [
+        ["id=JBJfrom_date", "id"],
+        ["css=#JBJfrom_date", "css:finder"],
+        ["xpath=//input[@id='JBJfrom_date']", "xpath:attributes"],
+        ["xpath=//div[@id='tabbed-nav']/div/div[3]/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody/tr/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11e7d1a7-d2e7-41d4-b2a8-8a735339cf06",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=29",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58e9a3e8-329f-4e47-953b-285c0f605419",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));     ydate=String(yesterday.getDate()).padStart(2, 0);     ymonth=(yesterday.getMonth() + 1)%12; ymonth = String(ymonth).padStart(2, 0);   yyear=yesterday.getFullYear();   fullprev=ydate+'-'+ymonth+'-'+yyear;  document.getElementById('JBJfrom_date').value=fullprev;",
+      "targets": [],
+      "value": "fullprev"
+    }, {
+      "id": "032d53e2-83ca-408b-abe7-2fba928c0e4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=v_getJBJ",
+      "targets": [
+        ["id=v_getJBJ", "id"],
+        ["css=#v_getJBJ", "css:finder"],
+        ["xpath=//input[@id='v_getJBJ']", "xpath:attributes"],
+        ["xpath=//div[@id='tabbed-nav']/div/div[3]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d64bf39-c088-489b-b19d-1d8f6275685a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "//*[@id=\"JBJ\"]/table/tbody",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "53e75dc9-0dcb-4e67-b79f-2a63b7fc1d76",
+      "comment": "",
+      "command": "executeScript",
+      "target": "var x = document.querySelector('#JBJ > table > tbody > tr:nth-child(2) > td:nth-child(3) > a:nth-child(2)'); x.setAttribute('download','');  x.click();",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9ad8b97c-494f-483e-a794-a513f8304c4d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1890a203-bf75-4242-acc6-efe77b1e3ed1"]
+  }],
+  "urls": ["https://main.sci.gov.in/"],
+  "plugins": []
+}
