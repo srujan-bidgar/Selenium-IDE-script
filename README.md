@@ -36,7 +36,7 @@ Using Selenium IDE to record automation to download the latest pdfs of judgments
  - - - -
 
  ## Process video to demonstrate the working ##
-<img src="https://github.com/srujan-bidgar/Selenium-IDE-script/blob/main/process-video.gif" width="714" height="400" />
+<img src="https://github.com/srujan-bidgar/Selenium-IDE-script/blob/main/process-video.gif" width="1071" height="600" />
 
 
 
