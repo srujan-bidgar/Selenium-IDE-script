@@ -41,7 +41,7 @@ Majorly from the official documentation on the website [https://www.selenium.dev
 
 ## What I would improve ##
 
--[ ] Integration with more web browsers like Internet explorer, Brave,etc
+- [ ] Integration with more web browsers like Internet explorer, Brave,etc
 
 
 
